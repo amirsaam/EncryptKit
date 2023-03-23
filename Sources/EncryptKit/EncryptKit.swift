@@ -10,7 +10,7 @@ import CommonCrypto
 
 /// Orginal Idea is from a friend of mine, Amachik: https://github.com/Amachik/EncryptKit
 public final class EncryptKit {
-    public let stringToEncrypt: String
+    fileprivate let stringToEncrypt: String
 
     public init(stringToEncrypt: String) {
         self.stringToEncrypt = stringToEncrypt
